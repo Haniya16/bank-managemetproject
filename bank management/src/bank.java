@@ -15,12 +15,12 @@ class BankDetails {
         acc_type = sc.next();
         System.out.print("Enter Name: ");
         name = sc.next();
-        System.out.print("Enter Balance: ");
+        System.out.print("Enter Current Balance : ");
         balance = sc.nextLong();
         System.out.print("\n");
     }
 
-    // method to display account detail
+    // method to display account details
     public void showAccount() {
         System.out.println("Name of account holder: " + name);
         System.out.println("Account no.: " + accno);
@@ -38,10 +38,10 @@ class BankDetails {
         System.out.print("\n");
     }
 
-    // method to withdraw money
+    // method to withdraw money from account
     public void withdrawal() {
         long amt;
-        System.out.println("Enter the amount you want to withdraw: ");
+        System.out.println("Enter the amount you want to withdraw: "):
         amt = sc.nextLong();
         if (balance >= amt) {
             balance = balance - amt;
