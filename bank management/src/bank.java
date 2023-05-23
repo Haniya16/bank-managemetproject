@@ -20,7 +20,7 @@ class BankDetails {
         System.out.print("\n");
     }
 
-    // method to display account details
+    // method to display account detail
     public void showAccount() {
         System.out.println("Name of account holder: " + name);
         System.out.println("Account no.: " + accno);
